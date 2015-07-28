@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signUpText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.blunter.LoginActivity"
+    tools:ignore="MergeRootFrame" >
+    <Button android:id="@+id/login1Button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/password1Field" android:text="@string/login_button_label"/>
+    <TextView android:id="@+id/signUpText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:text="@string/sign_up_text"/>
+    <EditText android:id="@+id/password1Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignTop="@+id/username1Field" android:layout_marginTop="40dp" android:ems="10" android:hint="@string/password_hint" android:inputType="textPassword"/>
+    <EditText android:id="@+id/username1Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginTop="72dp" android:ems="10" android:hint="@string/username_hint"/>
+
+</RelativeLayout>
+
